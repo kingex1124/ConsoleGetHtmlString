@@ -14,9 +14,9 @@ namespace ConsoleGetHtmlString
         static void Main(string[] args)
         {
             Program pg = new Program();
-            var result = pg.GetHtmlString("http://128.110.22.51/e_leader/dayend/SPSRCD_BHNO_a_adm.asp");
+            var result = pg.GetHtmlString("https://www.google.com/");
 
-            var result2 = pg.ReadHtmlPage("http://128.110.22.51/e_leader/dayend/SPSRCD_BHNO_a_adm.asp");
+            var result2 = pg.ReadHtmlPage("https://www.google.com/");
         }
 
 
